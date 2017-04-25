@@ -1,6 +1,6 @@
 # npmtest-express-validation
 
-#### test coverage for  [express-validation (v1.0.2)](https://github.com/andrewkeig/express-validation)  [![npm package](https://img.shields.io/npm/v/npmtest-express-validation.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-express-validation) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-express-validation.svg)](https://travis-ci.org/npmtest/node-npmtest-express-validation)
+#### basic test coverage for  [express-validation (v1.0.2)](https://github.com/andrewkeig/express-validation)  [![npm package](https://img.shields.io/npm/v/npmtest-express-validation.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-express-validation) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-express-validation.svg)](https://travis-ci.org/npmtest/node-npmtest-express-validation)
 
 #### express-validation is a middleware that validates the body, params, query, headers and cookies of a request and returns a response with errors; if any of the configured validation rules fail.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-express-validation/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-express-validation/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-express-validation/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-express-validation/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-express-validation/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-express-validation/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-express-validation/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-express-validation/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-express-validation/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-express-validation/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-express-validation/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-express-validation/build/coverage.html/index.html)
 
@@ -101,7 +101,8 @@
         "pretest": "eslint lib",
         "test": "mocha -R spec -b"
     },
-    "version": "1.0.2"
+    "version": "1.0.2",
+    "bin": {}
 }
 ```
 
